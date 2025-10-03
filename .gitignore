@@ -1,0 +1,36 @@
+# Создаём .gitignore
+cat <<'EOF' > .gitignore
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtualenv
+.venv/
+venv/
+env/
+ENV/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+summarize_repo.py
+summarize_repo-adv.v1.py
+summarize_repo-adv.v2.py
+._summaries.txt
+
+index.html.old*
